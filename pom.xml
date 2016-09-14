@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>log4j-json</name>
-    
+
     <description>Log4j layout in JSON format, for importing into databases
     that like JSON, like Google's BigQuery.</description>
     <url>https://github.com/chatwork/log4j-json</url>
@@ -44,11 +44,12 @@
     </properties>
 
     <build>
-        <finalName>${artifactId}-chatwork-${version}</finalName>
+        <finalName>${project.artifactId}-chatwork-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -57,6 +58,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -84,14 +86,14 @@
             <version>1.2.16</version>
             <scope>provided</scope>
         </dependency>
-        
+
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.2.2</version>
             <scope>compile</scope>
         </dependency>
-        
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
