@@ -16,7 +16,7 @@
     
     <description>Log4j layout in JSON format, for importing into databases
     that like JSON, like Google's BigQuery.</description>
-    <url>https://github.com/michaeltandy/log4j-json</url>
+    <url>https://github.com/chatwork/log4j-json</url>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -25,9 +25,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:https://github.com/michaeltandy/log4j-json.git</connection>
-        <url>scm:git:https://github.com/michaeltandy/log4j-json.git</url>
-        <developerConnection>scm:git:https://github.com/michaeltandy/log4j-json.git</developerConnection>
+        <connection>scm:git:https://github.com/chatwork/log4j-json.git</connection>
+        <url>scm:git:https://github.com/chatwork/log4j-json.git</url>
+        <developerConnection>scm:git:https://github.com/chatwork/log4j-json.git</developerConnection>
     </scm>
     <developers>
         <developer>
@@ -35,6 +35,11 @@
             <name>Michael Tandy</name>
             <email>pom@mjt.me.uk</email>
             <url>http://www.mjt.me.uk</url>
+        </developer>
+        <developer>
+            <id>everpeace</id>
+            <name>Shingo Omura</name>
+            <email>omura@chatwork.com</email>
         </developer>
     </developers>
 
